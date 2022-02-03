@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.section{
+    width: 100%;
+}
+.my-nav{
+    background-color: #ffdede;
+}
+.bg-light{
+    --bs-bg-opacity: 0;
+    
+}
+.my-nav form input:focus{
+    box-shadow: none;
+}
+.padtop{
+    padding-top: 40px;
+}
+.padbot{
+    padding-bottom: 40px;
+}
+.food {
+    text-align: center !important;
+}
+.food h2{
+    font-size: 50px;
+}
+.line{
+    background: orangered;
+    height: 2px;
+    width: 150px;
+    margin: auto;
+}
+.food .owl-carousel{
+    padding: 40px 0;
+}
+.food .card{
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 300px;
+    margin: auto;
+}
+.card .card-wrap{
+    padding: 30px;
+    text-align: left;
+}
+.card-wrap h4{
+    text-align: left;
+    font-weight: 600;
+}
+.card-wrap p{
+    text-align: justify;
+}
+.card-wrap a{
+    text-decoration: none;
+    color: #fff;
+    background: orangered;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.card-wrap a:hover{
+    position: relative;
+    top: 5px;
+    right: -5px;
+    box-shadow: -5px -5px 10px -1px rgb(65 255 246 / 80%);
+}
+.pop-body{
+    text-align: left;
+}
+.pop-body p{
+    text-align: justify;
+}
+.owl-nav button span{
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    background: blue;
+    color: #fff;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.owl-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.owl-nav .owl-next span{
+    right: 0%;
+}
+.owl-nav .owl-prev span{
+    left: 0%;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: blue !important;
+}
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span{
+    background: red !important;
+}
